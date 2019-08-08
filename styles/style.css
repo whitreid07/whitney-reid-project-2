@@ -6,6 +6,12 @@ article,aside,details,figcaption,figure,footer,header,hgroup,nav,section,summary
 
 .visuallyHidden:not(:focus):not(:active) { position: absolute; width: 1px; height: 1px; margin: -1px;border: 0;padding: 0;white-space: nowrap;clip-path: inset(100%);clip: rect(00 0 0);overflow: hidden;}
 
+/* Stripping Styles */
+
+h1 {
+  margin:0;
+  padding:0;
+}
 /* Basic Styling */
 
 img{
@@ -13,9 +19,22 @@ img{
 }
 header{
   background: url(../images/header-image.jpg);
-  height: 500px;
+  height: 90vh;
+  /* min-height: 650px; */
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   position: relative;
+  /* background-size: auto; */
+}
+
+.header-image-container {
+  width: 500px;
+  height: 500px;
+  display: none;
+}
+
+.header-image-container img {
+  width: 100%;
+  height: 100%;
 }
