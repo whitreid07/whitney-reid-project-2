@@ -1,0 +1,55 @@
+// Stripping Styles
+
+	body, h1, h2, h3,button, p, li, ul, a{
+    margin: 0;
+    padding: 0;
+    color: white;
+  }
+
+  /* GENERAL STYLING */
+  html {
+    font-size: 125%;
+  }
+
+  body {
+    font-family: 'Lato', sans-serif;
+  }
+
+  .wrapper2 {
+    max-width: 1680px;
+    margin: 0 auto;
+    width: 85%;
+    height: 100%;
+  }
+
+  nav {
+    font-family:  'Barlow', sans-serif;
+    // display: flex;
+    width: 100%;
+  }
+
+  h1 {
+    font-size: 6rem;
+  }
+
+  h2 {
+    font-family:  'Barlow', sans-serif;
+  }
+
+  img {
+    width: 100%;
+  }
+
+  a{
+  color: #ffffff;
+  text-decoration: none;
+
+}
+
+li {
+    list-style-type: none; 
+}
+
+span {
+  display: block;
+}
