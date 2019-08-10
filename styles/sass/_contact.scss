@@ -1,0 +1,45 @@
+// HEADER STYLES - CONTACT PAGE
+
+.contact-header {
+  background-image: url("../images/contact-header.jpg");
+  background-size: cover;	
+  background-repeat: no-repeat;
+  background-color: lightgray;
+  background-position: center;
+  // width: 100%;
+  height: 50vh;
+}
+
+.header-contact-container {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+
+main{
+  background: #0c1423;
+  height: 43vh;
+  // display: flex;
+}
+
+.contact-section1-container {
+  display: flex;
+  width: 50%;
+}
+
+.contact-info-section {
+  width: 30%;
+}
+
+.contact-section {
+  display: flex;
+  // width: 50%;
+}
+.form-container {
+  display: flex;
+  width: 100%;
+}
+
+form{
+  width:100%;
+}

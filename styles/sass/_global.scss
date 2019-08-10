@@ -1,6 +1,6 @@
 // Stripping Styles
 
-	body, h1, h2, h3,button, p, li, ul, a{
+	body, h1, h2, h3, h4, button, p, li, ul, a, img{
     margin: 0;
     padding: 0;
     color: #ffffff;
@@ -21,7 +21,7 @@
     margin: 0 auto;
     width: 85%;
     height: 100%;
-    border: 2px dotted coral;
+    // border: 2px dotted coral;
   }
 
   nav {
@@ -30,16 +30,9 @@
     width: 100%;
   }
 
-  h1 {
-    font-size: 6rem;
-  }
-
-  h2 {
-    font-family:  'Barlow', sans-serif;
-  }
-
   img {
     width: 100%;
+    display: block;
   }
 
   a{

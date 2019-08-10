@@ -179,7 +179,7 @@ legend, button::-moz-focus-inner, input::-moz-focus-inner {
   overflow: hidden;
 }
 
-body, h1, h2, h3, button, p, li, ul, a {
+body, h1, h2, h3, h4, button, p, li, ul, a, img {
   margin: 0;
   padding: 0;
   color: #ffffff;
@@ -200,7 +200,6 @@ body {
   margin: 0 auto;
   width: 85%;
   height: 100%;
-  border: 2px dotted coral;
 }
 
 nav {
@@ -208,16 +207,9 @@ nav {
   width: 100%;
 }
 
-h1 {
-  font-size: 6rem;
-}
-
-h2 {
-  font-family: 'Barlow', sans-serif;
-}
-
 img {
   width: 100%;
+  display: block;
 }
 
 a {
@@ -275,9 +267,16 @@ button {
 
 h2 {
   font-size: 4rem;
+  text-transform: uppercase;
 }
 
 h3 {
+  font-size: 2.1rem;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+
+h4 {
   font-size: 1.6rem;
   letter-spacing: 1px;
   text-transform: uppercase;
@@ -298,14 +297,22 @@ h3 {
   text-transform: uppercase;
 }
 
-.section2-content1 h3,
-.section2-content1 p {
+.section2-content1 {
   text-align: right;
-  padding-top: 5%;
 }
 
-.section2-content1 p {
+h4 {
+  padding-top: 15%;
+}
+
+.section2-content1 p,
+.section2-content2 p {
   padding-bottom: 5%;
+  padding-top: 2%;
+}
+
+.section2-content2 h4 {
+  padding-top: 7%;
 }
 
 .main-header {
@@ -335,6 +342,7 @@ h3 {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  height: 100vh;
 }
 
 .header-container {
@@ -353,18 +361,24 @@ h3 {
 
 .header-image {
   width: 100%;
+  height: 100%;
+}
+
+.header-image img {
+  width: 113%;
+  margin-left: -13%;
 }
 
 .section1 {
   background: #0c1423;
-  height: 500px;
+  height: 600px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
 }
 
 .section1-contents h3 {
-  margin-top: 11%;
+  margin-top: 14%;
   margin-bottom: 1%;
   text-align: center;
 }
@@ -398,7 +412,7 @@ h3 {
 
 .section2 {
   background: #0f614e;
-  height: 800px;
+  height: 850px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -422,6 +436,17 @@ section2-content2 {
           flex-direction: column;
 }
 
+.section2-image-container1 img,
+.section2-image-container2 img {
+  margin-top: -8%;
+}
+
+.section2-image-container1 {
+  width: 95%;
+  -webkit-box-shadow: 17px 21px 0px 22px #86e0f9;
+          box-shadow: 17px 21px 0px 22px #86e0f9;
+}
+
 .section2-button1 {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -437,17 +462,20 @@ section2-content2 {
   margin-right: 7%;
 }
 
-.section2-content2 h3 {
-  margin-top: 10%;
-}
-
-.section2-content2 p {
-  padding-top: 3%;
+.section2-content-h4-p {
+  margin-left: 5%;
 }
 
 .section2-image-container2 {
-  -o-object-fit: cover;
-     object-fit: cover;
+  width: 95%;
+  margin-top: 31%;
+  margin-left: 5%;
+  -webkit-box-shadow: -46px 46px 0px -10px #86e0f9;
+          box-shadow: -46px 46px 0px -10px #86e0f9;
+}
+
+.section2-image-container2 img {
+  margin-top: -8%;
 }
 
 .section3 {
@@ -472,7 +500,7 @@ section2-content2 {
           flex-direction: column;
 }
 
-.section3-icon-h3 {
+.fas fa-location-arrow {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -480,10 +508,10 @@ section2-content2 {
 
 .section3-group1 i,
 .section3-group2 i {
-  padding-right: 2%;
-  border-radius: 20px;
+  border-radius: 100%;
   background: #86e0f9;
   color: #0c1423;
+  font-size: 2rem;
 }
 
 .section3-group1 p,
@@ -658,4 +686,57 @@ form {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
+}
+
+.contact-header {
+  background-image: url("../images/contact-header.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-color: lightgray;
+  background-position: center;
+  height: 50vh;
+}
+
+.header-contact-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-line-pack: center;
+      align-content: center;
+}
+
+main {
+  background: #0c1423;
+  height: 43vh;
+}
+
+.contact-section1-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 50%;
+}
+
+.contact-info-section {
+  width: 30%;
+}
+
+.contact-section {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.form-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+}
+
+form {
+  width: 100%;
 }
