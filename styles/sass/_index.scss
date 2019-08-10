@@ -1,4 +1,4 @@
-//  Header Styles
+//  HEADER STYLES
 
  .main-header{
   background-image: url("../images/header-image.jpg");
@@ -36,5 +36,121 @@
 
 .header-image  {
   width: 100%;
-  // flex-shrink: 2;
+}
+
+// SECTION 1
+
+.section1 {
+  background:#0c1423;
+  height: 500px;
+  display: flex;
+}
+
+.section1-contents h3 {
+  margin-top: 11%;
+  margin-bottom: 1%;
+  text-align: center;
+}
+
+.section1-contents {
+  display: flex;
+  flex-direction: column;
+}
+
+.section1-paragraph p {
+  margin-right: 26%;
+  margin-bottom: 2%;
+}
+
+.section1-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+// SECTION 2
+
+.section2 {
+  background:#0f614e;
+  height: 800px;
+  display: flex;
+}
+
+.section2-container1,
+section2-container2 {
+  display: flex;
+}
+
+
+.section2-content1,
+section2-content2{
+  display: flex;
+  flex-direction: column;
+}
+
+// section 3 nemo/additions
+
+.section2-content1{
+  margin-right: 7%;
+}
+
+.section2-content2 h3 {
+  margin-top: 10%;
+}
+
+.section2-content2 p{
+  padding-top: 3%;
+}
+
+// SECTION 3
+.section3{
+  background:#0c1423;
+  // height: 30%;
+  // display: flex;
+}
+
+.section3-container {
+  display: flex;
+  padding: 10% 0;
+}
+
+.section3-group1,
+.section3-group2 {
+  display: flex;
+  flex-direction: column;
+}
+
+.section3-icon-h3 {
+  display: flex;
+}
+
+.section3-group1 i,
+.section3-group2 i{
+  padding-right: 2%;
+  border-radius: 20px;
+  background: #86e0f9;
+  color: #0c1423;
+}
+
+.section3-group1 p,
+.section3-group2 p {
+  padding-left: 5%;
+}
+
+// SECTION 4
+
+section4-image-container {
+  background-size: cover;
+}
+
+// SECTION 5
+
+.section5 {
+  background: #0c1423;
+  height: 500px;
+}
+
+section5-image-container {
+  width: 200px;
+  height: 200px;
 }
