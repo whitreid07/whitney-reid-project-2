@@ -1,7 +1,7 @@
 // HEADER STYLES
 
 .blog-main-header {
-  background-image: url("../images/blog-header.jpg");
+  background-image: linear-gradient(to bottom, rgba(12, 20, 35, 0.5), rgba(12, 20, 35, 0.5)), url("../images/blog-header.jpg");
   background-size: cover;	
   background-repeat: no-repeat;
   background-color: lightgray;
@@ -26,6 +26,33 @@
   display: flex;
 }
 
+// aside styles
+
+.aside-image {
+  box-shadow: 41px 22px 0px -23px #0f614e;
+}
+.aside-container {
+  // background: #0f614e;
+  height: 1000px;
+}
+
+.aside-contents {
+  margin-left: 23%;
+  background: #0f614e;
+  box-shadow: 4px 0px 0px 14px #0f614e;
+  margin-top: 1.9%;
+}
+
+.aside-section1,
+.aside-section2 {
+  padding: 7%;
+}
+.aside-section1 p,
+.aside-section2 ul{
+  padding-right: 10%;
+  padding-top: 5%;
+}
+
 // Main section
 .blog-section {
   display: flex;
@@ -35,47 +62,117 @@
 .aside-container {
   display: flex;
   flex-direction: column;
-  width: 30%;
-  margin-right: 5%;
+  // width: 35%;
+  margin-right: 9%;
 }
 
 .article-container {
   display: flex;
   flex-direction: column;
-  width: 70%;
+  width: 65%;
 }
 
 .section1-container {
-  margin-top: -41%;
+  margin-top: -54%;
 }
+
+.blog-image-container {
+  width: 100%;
+  box-shadow: -43px 46px 0px -10px #86e0f9;
+}
+
+.blog-section1 {
+  box-shadow: -19px 18px 0px -10px #86e0f9;
+}
+
+.blog-section1 h3{
+  padding-bottom: 1%;
+}
+
+.blog-section1 {
+  padding-top: 7%;
+  padding-left: 7%;
+  margin-left: -12.2%;
+}
+
+.blog-section {
+  padding-top: 5%;
+}
+
+.blog-section-paragraph {
+  margin-top: 5%;
+  padding-right: 4%;
+  padding-bottom: 3%;
+}
+
+.blog-section2 {
+  margin-top: 5%;
+  margin-left: -4%;
+  margin-right: 13%;
+}
+
+.blog-contents-container {
+  margin-left: 8%;
+  margin-right: 7%;
+}
+
+
+// blog comment section
 
 .blog-comment-container {
   display: flex;
+  margin: 7% 0;
 }
 
 .blog-comment-image1,
 .blog-comment-image2 {
   display: flex;
-  width: 10%;
-  margin-right: 2%;
+  width: 33%;
+  height: 33%;
+  margin-right: 4%;
 }
 
-.blog-comment-pargraph1,
-.blog-comment-pargraph2 {
-  width: 80%;
+.blog-comment-paragraph1 {
+  padding-right: 5%;
 }
+
 
 // form styles
 
 form {
-  width: 70%;
+  width: 84%;
+  background:#0c1423;
+
+}
+
+form input,
+textarea {
+    color: white;
+}
+
+fieldset {
+  border: none;
+  background:#0c1423;
 }
 .form-input {
   display:flex;
   justify-content: space-between;
+  padding-bottom: 5%;
 }
 
 .form-comment-button {
   display: flex;
   flex-direction: column;
+}
+
+ #name,
+ #email {
+    border: none;
+    border-bottom: 1px solid#86e0f9;
+    background:#0c1423;
+}
+
+#comment {
+  border: 1px solid #86e0f9;
+  background:#0c1423;
 }
