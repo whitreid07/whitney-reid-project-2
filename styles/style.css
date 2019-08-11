@@ -301,7 +301,7 @@ h4 {
   text-align: right;
 }
 
-h4 {
+.section2-content1h4 {
   padding-top: 15%;
 }
 
@@ -462,7 +462,11 @@ section2-content2 {
   margin-right: 7%;
 }
 
-.section2-content-h4-p {
+.section2-content-h4-p-1 {
+  margin-top: 15%;
+}
+
+.section2-content-h4-p-2 {
   margin-left: 5%;
 }
 
@@ -504,19 +508,78 @@ section2-content2 {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  padding-right: 15%;
+}
+
+.location-heading,
+.blog-heading,
+.community-heading,
+.touch-heading {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 80%;
+  padding-right: 10%;
+}
+
+.location-heading i,
+.blog-heading i,
+.community-heading i,
+.touch-heading i {
+  margin-right: 5%;
+}
+
+.blog-paragraph p,
+.location-paragraph p,
+.community-paragraph p,
+.touch-paragraph p {
+  margin-left: 5%;
+  padding-right: 16%;
+}
+
+.location-heading i {
+  padding: 2%;
+}
+
+.blog-heading i {
+  padding: 2%;
+}
+
+.community-heading i {
+  padding: 1.5%;
+}
+
+.touch-heading i {
+  padding: 2%;
+}
+
+.location-paragraph,
+blog-paragraph,
+communty-paragraph,
+.touch-heading {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
 }
 
 .section3-group1 i,
 .section3-group2 i {
-  border-radius: 100%;
+  width: 50px;
+  height: 50px;
   background: #86e0f9;
   color: #0c1423;
-  font-size: 2rem;
+  font-size: 1.5rem;
+  text-align: center;
+  border-radius: 50%;
 }
 
 .section3-group1 p,
 .section3-group2 p {
   padding-left: 5%;
+}
+
+.section3-icon-h4 {
+  margin-top: 10%;
 }
 
 .section4-image-container img {
