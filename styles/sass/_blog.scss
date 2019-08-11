@@ -53,6 +53,14 @@
   padding-top: 5%;
 }
 
+.aside-section2 ul {
+ margin-left: 1rem;
+}
+
+.aside-section2 li {
+  padding-left: 5%;
+}
+
 // Main section
 .blog-section {
   display: flex;
@@ -139,18 +147,18 @@
 
 // form styles
 
-form {
+.blog-form {
   width: 84%;
   background:#0c1423;
 
 }
 
-form input,
+.blog-form input,
 textarea {
     color: white;
 }
 
-fieldset {
+.blog-fieldset {
   border: none;
   background:#0c1423;
 }

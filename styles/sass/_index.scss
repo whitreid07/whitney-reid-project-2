@@ -42,8 +42,8 @@
 }
 
 .header-image img  {
-  width: 113%;
-  margin-left: -13%;
+  width: 107%;
+  margin-left: -7%;
 }
 
 // SECTION 1
@@ -92,21 +92,18 @@ section2-container2 {
 // section 2 nemo/additions
 
 .section2-content1,
-section2-content2{
+.section2-content2{
   display: flex;
   flex-direction: column;
 }
   .section2-image-container1 img,
   .section2-image-container2 img{
-     margin-top: -8%;
-    //  padding-left: 5%;
+     margin-top: -20%;
   }
 
 .section2-image-container1 {
   width: 95%;
-  // padding-left: 5%;
   box-shadow: 48px 46px 0px -10px #86e0f9;
-//  border-bottom: 20px solid #86e0f9;
 }
 
 .section2-button1 {
@@ -122,8 +119,17 @@ section2-content2{
   margin-top: 15%;
 }
 
+.section2-content-h4-p-1 p {
+  padding-left: 25%;
+}
+
+.section2-content-h4-p-2 p {
+  padding-right: 25%;
+}
+
 .section2-content-h4-p-2 {
   margin-left: 5%;
+  padding-right: 5%;
 }
 
 .section2-image-container2 {
@@ -136,13 +142,14 @@ section2-content2{
 .section2-image-container2 img{
   margin-top: -8%;
 }
+.section2-button2{
+  margin-left: 5%;
+}
 
 
 // SECTION 3
 .section3{
   background:#0c1423;
-  // height: 30%;
-  // display: flex;
 }
 
 .section3-container {
@@ -256,7 +263,7 @@ communty-paragraph,
   height: 320px;
   display: flex;
   margin-right: 10%;
-  box-shadow: 53px 46px 0px -10px #86e0f9;
+  box-shadow: 41px 37px 0px -10px #86e0f9;
 }
 
 .section5-contents {

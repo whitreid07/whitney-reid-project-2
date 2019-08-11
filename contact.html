@@ -17,7 +17,7 @@
       <nav>
         <ul class="nav-links">
           <li><a href="index.html">home</a></li>
-          <li><a href="#">about</a></li>
+          <li><a href="blog.html#about">about</a></li>
           <li><a href="blog.html">blog</a></li>
           <li><a href="contact.html">contact</a></li>
         </ul>
@@ -30,52 +30,54 @@
       <section class="contact-section">
         <div class="contact-section1-container">
           <div class="contact-info-section">
-            <span><i class="fab fa-facebook-f" aria-hidden="true"></i></span>
-            <span class="sr-only">Facebook Icon</span>
+            <div class="contact-social-container">
+              <span><i class="fab fa-facebook-f" aria-hidden="true"></i></span>
+              <span class="sr-only">Facebook Icon</span>
 
-            <span><i class="fab fa-instagram" aria-hidden="true"></i></span>
-            <span class="sr-only">Instagram Icon</span>
+              <span><i class="fab fa-instagram" aria-hidden="true"></i></span>
+              <span class="sr-only">Instagram Icon</span>
 
-            </san><i class="fab fa-whatsapp" aria-hidden="true"></i></span>
-            <span class="sr-only">Whatsapp Icon</span>
+              <span><i class="fab fa-whatsapp" aria-hidden="true"></i></span>
+              <span class="sr-only">Whatsapp Icon</span>
 
-            <span><i class="fab fa-twitter" aria-hidden="true"></i></span>
-            <span class="sr-only">Twitter Icon</span>
+              <span><i class="fab fa-twitter" aria-hidden="true"></i></span>
+              <span class="sr-only">Twitter Icon</span>
+            </div>
 
-            <h3>info@email.com</h3>
-            <p>123 - 456 - 7890</p>
-            <p>123 Queen Street West, Unit 10</p>
-            <p>Toronto, Ontario</p>
-            <p>m2v2d5</p>
+            <div class="contact-social-info">
+              <h4>info@email.com</h4>
+              <p>123 - 456 - 7890</p>
+              <p>123 Queen Street West, Unit 10</p>
+              <p>Toronto, Ontario</p>
+              <p>M2V2D5</p>
+            </div>
           </div>
         </div>
-        <div class="form-container">
-          <form action="">
-            <fieldset>
-              <div class="form-input">
-                <label for="text" class="visuallyHidden">Type your name</label>
-                <input type="name" placeholder="Type your name" id="name" name="name">
+        <form class="contact-form-container" action="">
+          <fieldset class="contact-fieldset">
+            <div class="form-input">
+              <label for="text" class="visuallyHidden">Type your name</label>
+              <input type="name" placeholder="Name" id="contact-name" name="name" size="25">
 
-                <label for="text" class="visuallyHidden">Type your email address</label>
-                <input type="name" placeholder="Type your email adress" id="email" name="email">
-              </div>
+              <label for="email" class="visuallyHidden">Type your email address</label>
+              <input type="name" placeholder="Email address" id="contact-email" name="email" size="25">
+            </div>
 
-              <div class="form-comment-button">
-                <label for="text" class="visuallyHidden">Type your comments</label>
-                <textarea rows="4" cols="50"></textarea>
+            <div class="form-comment-button">
+              <label for="text" class="visuallyHidden">Type your comments</label>
+              <textarea rows="10" cols="50" id="contact-comment" placeholder="Comments"></textarea>
 
-                <button>
-                  <p>post comment</p>
-                </button>
-              </div>
-            </fieldset>
-          </form>
-        </div>
-    </main>
+              <button class="contact-button">
+                <p>submit</p>
+              </button>
+          </fieldset>
+        </form>
+  </div>
+  </article>
 
-    <footer class="footer-section">
-      <p>copyright © 2018 HackerYou</p>
-    </footer>
+  <footer class="footer-section">
+    <p>copyright © 2018 HackerYou</p>
+  </footer>
   </div><!-- End of wrapper -->
 </body>
 
