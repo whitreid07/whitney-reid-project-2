@@ -268,18 +268,21 @@ button {
 h2 {
   font-size: 4rem;
   text-transform: uppercase;
+  font-family: 'Barlow', sans-serif;
 }
 
 h3 {
   font-size: 2.1rem;
   letter-spacing: 1px;
   text-transform: uppercase;
+  font-family: 'Barlow', sans-serif;
 }
 
 h4 {
   font-size: 1.6rem;
   letter-spacing: 1px;
   text-transform: uppercase;
+  font-family: 'Barlow', sans-serif;
 }
 
 .button-darkblue {
@@ -443,8 +446,8 @@ section2-content2 {
 
 .section2-image-container1 {
   width: 95%;
-  -webkit-box-shadow: 17px 21px 0px 22px #86e0f9;
-          box-shadow: 17px 21px 0px 22px #86e0f9;
+  -webkit-box-shadow: 48px 46px 0px -10px #86e0f9;
+          box-shadow: 48px 46px 0px -10px #86e0f9;
 }
 
 .section2-button1 {
@@ -594,18 +597,29 @@ communty-paragraph,
   display: -ms-flexbox;
   display: flex;
   background: #0c1423;
-  height: 500px;
+  height: 600px;
 }
 
-.section5-image-container {
-  width: 200px;
-  height: 200px;
+.section5-container {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  margin-top: 7%;
+  margin-bottom: 17%;
 }
 
-.section5-contents-container {
+.section5-image-container {
+  width: 320px;
+  height: 320px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-right: 10%;
+  -webkit-box-shadow: 53px 46px 0px -10px #86e0f9;
+          box-shadow: 53px 46px 0px -10px #86e0f9;
+}
+
+.section5-contents {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -613,6 +627,19 @@ communty-paragraph,
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
+  width: 56%;
+}
+
+.section5-contents p {
+  padding-top: 5%;
+}
+
+.section5-button1 {
+  padding-top: 5%;
+}
+
+.section5-button1 p {
+  padding-top: 0;
 }
 
 .section6 {
@@ -627,6 +654,19 @@ communty-paragraph,
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
+}
+
+.section6-image-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.section6-image-container img {
+  margin-left: 2%;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  padding: 5% 0;
 }
 
 .footer-section {
