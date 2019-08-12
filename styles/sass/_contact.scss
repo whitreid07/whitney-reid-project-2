@@ -1,12 +1,11 @@
 // HEADER STYLES - CONTACT PAGE
 
 .contact-header {
-  background-image: url("../images/contact-header.jpg");
+  background-image: linear-gradient(to bottom, rgba(12, 20, 35, 0.5), rgba(12, 20, 35, 0.5)),url("../images/contact-header.jpg");
   background-size: cover;	
   background-repeat: no-repeat;
   background-color: lightgray;
   background-position: center;
-  // width: 100%;
   height: 50vh;
 }
 
@@ -19,7 +18,6 @@
 main{
   background: #0c1423;
   height: 43vh;
-  // display: flex;
 }
 
 .contact-section1-container {
@@ -41,7 +39,7 @@ main{
   display: flex;
   justify-content: space-between;
   margin-bottom: 5%;
-  width: 70%;
+  width: 58%;
 }
 
 .contact-social-info h4 {
@@ -100,4 +98,10 @@ main{
   line-height: 32px;
   margin: 7% 0;
   margin-bottom: 7%;
+}
+
+#contact-name:focus-within,
+#contact-email:focus-within,
+#contact-comment:focus-within {
+  border: 2px solid #0c1423;
 }

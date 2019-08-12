@@ -66,8 +66,9 @@
 }
 
 .section1-paragraph p {
-  margin-right: 26%;
+  margin-right: 14%;
   margin-bottom: 2%;
+  margin-left: 12%;
 }
 
 .section1-button {
@@ -85,7 +86,7 @@
 }
 
 .section2-container1,
-section2-container2 {
+.section2-container2 {
   display: flex;
 }
 
@@ -96,7 +97,9 @@ section2-container2 {
   display: flex;
   flex-direction: column;
 }
-  .section2-image-container1 img,
+ .section2-image-container1 img {
+  margin-top: -10%;
+ }
   .section2-image-container2 img{
      margin-top: -20%;
   }
@@ -298,7 +301,6 @@ communty-paragraph,
 }
 
 .section6-image-container {
-  // width: 50%;
   display: flex;
  
 }
