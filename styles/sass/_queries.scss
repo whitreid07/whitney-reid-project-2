@@ -46,6 +46,66 @@
 
 // }
 
+@media only screen and (max-width: 1275px){
+  main {
+    height: 100vh;
+  }
+  .contact-section{
+    flex-wrap: nowrap;
+    flex-direction: column;
+  }
+  .contact-form-container {
+    margin-top: 0px;
+    margin-right: 0px;
+    margin-top: -23%;
+    margin-right: 20%;
+    margin: 0;
+  }
+
+  .contact-section1-container {
+    order: 2;
+    width: 100%;
+    text-align: center;
+  }
+
+  .form-container {
+    width: 75%;
+    flex-wrap: wrap;
+    margin: -21% auto;
+  }
+  
+  .contact-social-container {
+    align-items: center;
+    display: inline;
+    font-size: 1.2rem;
+  }
+
+  .contact-social-container i {
+    padding: 3%;
+  }
+
+  .contact-info-section {
+    margin: 25% auto;
+  }
+
+  .contact-social-info h4 {
+    margin-top: 7%;
+    margin-bottom: 7%;
+  }
+  .contact-social-info p{
+    font-size: 1.5rem;
+    line-height: 2.1rem;
+  }
+
+  .contact-social-info {
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+
+}
+ 
+}
+
 @media only screen and (max-width: 1161px){
 
   // Index.html
@@ -242,8 +302,8 @@
   }
 
   .blog-form {
-    width: 122%;
-    margin-left: 11%;
+    width: 119%;
+    margin-left: 14%;
   }
 
   .form-input {
@@ -322,9 +382,23 @@
   .aside-image {
     max-width: 98%;
   }
+
+  .blog-form {
+    width: 30%;
+    margin-left: 11%;
+  }
+}
+
+@media only screen and (max-width: 650px){
+  
 }
 
 @media only screen and (max-width: 620px){
+
+  .blog-form {
+    width: 10%;
+    margin-left: 11%;
+  }
 
   .header-contents {
     display: flex;

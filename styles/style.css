@@ -942,8 +942,12 @@ blog-paragraph,
 .blog-comment-image2 img {
   width: 100%;
   height: 100%;
-  -o-object-fit: cover;
-     object-fit: cover;
+}
+
+.blog-comment-image-container1,
+.blog-comment-image-container2 {
+  width: 100px;
+  height: 100px;
 }
 
 .blog-comment-paragraph1 {
@@ -990,11 +994,13 @@ textarea {
   border: none;
   border-bottom: 1px solid #86e0f9;
   background: #0c1423;
+  width: 45%;
 }
 
 #comment {
   border: 1px solid #86e0f9;
   background: #0c1423;
+  width: 100%;
 }
 
 .contact-header {
@@ -1020,20 +1026,21 @@ textarea {
 
 main {
   background: #0c1423;
-  height: 43vh;
+  height: 50vh;
 }
 
 .contact-section1-container {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  width: 50%;
+  width: 45%;
 }
 
 .contact-info-section {
   width: 35%;
   margin-left: 19%;
   margin-top: 9%;
+  white-space: nowrap;
 }
 
 .contact-section {
@@ -1050,27 +1057,27 @@ main {
       -ms-flex-pack: justify;
           justify-content: space-between;
   margin-bottom: 5%;
-  width: 58%;
 }
 
 .contact-social-info h4 {
   margin-bottom: 7%;
 }
 
+.form-container {
+  width: 75%;
+}
+
 .contact-form-container {
-  margin-top: -14%;
-  margin-left: -11%;
-  width: 55%;
-  height: 500px;
+  margin: 0;
+  margin-top: -23%;
+  margin-right: 20%;
+  border: 2px solid coral;
 }
 
 .form-input {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
   padding-bottom: 5%;
 }
 
@@ -1091,6 +1098,7 @@ main {
   background: #0f614e;
   padding: 2%;
   padding: 0 5%;
+  width: 45%;
 }
 
 #contact-comment {
@@ -1101,8 +1109,8 @@ main {
 .contact-fieldset {
   border: none;
   background: #0f614e;
-  -webkit-box-shadow: -63px 61px 0px -13px #86e0f9;
-          box-shadow: -63px 61px 0px -13px #86e0f9;
+  -webkit-box-shadow: -23px 23px 0px 0px #86e0f9;
+          box-shadow: -23px 23px 0px 0px #86e0f9;
   padding: 0 7%;
   padding-top: 7%;
 }
@@ -1123,6 +1131,73 @@ main {
 #contact-email:focus-within,
 #contact-comment:focus-within {
   border: 2px solid #0c1423;
+}
+
+@media only screen and (max-width: 1275px) {
+  main {
+    height: 100vh;
+  }
+  .contact-section {
+    -ms-flex-wrap: nowrap;
+        flex-wrap: nowrap;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .contact-form-container {
+    margin-top: 0px;
+    margin-right: 0px;
+    margin-top: -23%;
+    margin-right: 20%;
+    margin: 0;
+  }
+  .contact-section1-container {
+    -webkit-box-ordinal-group: 3;
+        -ms-flex-order: 2;
+            order: 2;
+    width: 100%;
+    text-align: center;
+  }
+  .form-container {
+    width: 75%;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    margin: -21% auto;
+  }
+  .contact-social-container {
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    display: inline;
+    font-size: 1.2rem;
+  }
+  .contact-social-container i {
+    padding: 3%;
+  }
+  .contact-info-section {
+    margin: 25% auto;
+  }
+  .contact-social-info h4 {
+    margin-top: 7%;
+    margin-bottom: 7%;
+  }
+  .contact-social-info p {
+    font-size: 1.5rem;
+    line-height: 2.1rem;
+  }
+  .contact-social-info {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
 }
 
 @media only screen and (max-width: 1161px) {
@@ -1301,8 +1376,8 @@ main {
     margin-top: 15%;
   }
   .blog-form {
-    width: 122%;
-    margin-left: 11%;
+    width: 119%;
+    margin-left: 14%;
   }
   .form-input {
     padding-bottom: 5%;
@@ -1379,9 +1454,17 @@ main {
   .aside-image {
     max-width: 98%;
   }
+  .blog-form {
+    width: 30%;
+    margin-left: 11%;
+  }
 }
 
 @media only screen and (max-width: 620px) {
+  .blog-form {
+    width: 10%;
+    margin-left: 11%;
+  }
   .header-contents {
     display: -webkit-box;
     display: -ms-flexbox;
