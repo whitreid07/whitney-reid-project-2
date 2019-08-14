@@ -330,6 +330,7 @@ a:hover {
   color: #86e0f9;
   -webkit-transition: all 0.3s;
   transition: all 0.3s;
+  border-bottom: 2px solid #86e0f9;
 }
 
 a:visited {
@@ -1088,14 +1089,14 @@ main {
   margin-bottom: 7%;
 }
 
-.contact-container {
+.cotact-form-container {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
 }
 
 .contact-section {
-  width: 40%;
+  width: 30%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -1103,6 +1104,42 @@ main {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
+  margin-top: 6%;
+}
+
+.contact-form-container {
+  width: 60%;
+  margin-top: -14%;
+}
+
+.form-container {
+  width: 80%;
+  margin-top: -14%;
+}
+
+.form-contents {
+  width: 87%;
+}
+
+.contact-fieldset {
+  border: none;
+  background: #0c1423;
+}
+
+.contact-form-input {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding-bottom: 5%;
+}
+
+.contact-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
 }
 
 .form-container {
@@ -1148,6 +1185,33 @@ main {
   line-height: 32px;
   margin: 7% 0;
   margin-bottom: 7%;
+}
+
+.contact-form-comment-button {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+#contact-name,
+#contact-email {
+  border: none;
+  border-bottom: 1px solid #86e0f9;
+  width: 45%;
+}
+
+#contact-comment {
+  border: 1px solid #86e0f9;
+  width: 100%;
+}
+
+.contact-form input,
+textarea {
+  color: white;
 }
 
 #contact-name:focus-within,
@@ -1208,6 +1272,27 @@ main {
   #comment {
     padding: 3% 0;
     padding-left: 1%;
+  }
+}
+
+@media only screen and (max-width: 1252px) {
+  #contact-name,
+  #contact-email {
+    width: 100%;
+    margin: 3% 0;
+  }
+  .contact-form-container {
+    margin-top: -20%;
+  }
+  .contact-form-input {
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
   }
 }
 
@@ -1553,16 +1638,6 @@ main {
   .blog-section1 h3 {
     line-height: 2.2rem;
     padding-top: 5%;
-  }
-  .contact-form-container {
-    border: 2px solid red;
-  }
-  .contact-section {
-    margin-left: 20%;
-  }
-  .form-container {
-    width: 100%;
-    margin-top: -14%;
   }
 }
 
