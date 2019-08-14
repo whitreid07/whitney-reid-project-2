@@ -309,6 +309,12 @@ textarea {
   color: #ffffff;
 }
 
+.contact-button:hover {
+  background: #86e0f9;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+}
+
 .nav-links ul {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -1232,6 +1238,12 @@ textarea {
   }
 }
 
+@media only screen and (max-width: 1386px) {
+  .contact-form-container {
+    margin-top: -17%;
+  }
+}
+
 @media only screen and (max-width: 1366px) {
   .blog-form {
     width: 90%;
@@ -1403,9 +1415,6 @@ textarea {
 }
 
 @media only screen and (max-width: 1073px) {
-  .main-header {
-    height: 50vh;
-  }
   main {
     height: 90vh;
   }
@@ -1544,11 +1553,17 @@ textarea {
   .blog-button {
     margin-bottom: 10%;
   }
+  .contact-form-container {
+    margin: 0 auto;
+    margin-top: 0px;
+    margin-top: -23%;
+    width: 75%;
+  }
 }
 
 @media only screen and (max-width: 955px) {
   main {
-    height: 100vh;
+    height: 95vh;
   }
   #contact-name,
   #contact-email {
@@ -1562,11 +1577,14 @@ textarea {
   .section1-contents {
     margin-top: -13px;
   }
+  .contact-section {
+    margin-left: 28%;
+  }
 }
 
 @media only screen and (max-width: 849px) {
   .blog-main-header {
-    height: 50vh;
+    height: 40vh;
   }
   .header-image img {
     width: 103%;
@@ -1575,6 +1593,9 @@ textarea {
   .header-container h1 {
     font-size: 4rem;
     margin-left: 19%;
+  }
+  .section1-container {
+    margin-top: -36%;
   }
   .section1-paragraph p {
     font-size: 1rem;
@@ -1591,12 +1612,6 @@ textarea {
   .section1-contents p {
     padding: 0 5%;
     padding-bottom: 10%;
-  }
-  .blog-contents-container {
-    padding-top: 3%;
-  }
-  .blog-section1 h3 {
-    line-height: 2.2rem;
   }
   .section5-container {
     display: -webkit-box;
@@ -1626,6 +1641,25 @@ textarea {
     width: 30%;
     height: 30%;
   }
+  .blog-contents-container {
+    padding-top: 3%;
+  }
+  .blog-section1 h3 {
+    line-height: 2.2rem;
+  }
+  .contact-section {
+    margin-left: 22%;
+  }
+}
+
+@media only screen and (max-width: 839px) {
+  .contact-form-container {
+    margin-top: -32%;
+  }
+  .contact-section {
+    margin-left: 19%;
+    margin-top: 19%;
+  }
 }
 
 @media only screen and (max-width: 722px) {
@@ -1639,11 +1673,17 @@ textarea {
     line-height: 2.2rem;
     padding-top: 5%;
   }
+  .contact-section {
+    margin-left: 20%;
+  }
 }
 
 @media only screen and (max-width: 703px) {
   .section1-contents {
     margin-top: -30px;
+  }
+  .section1-container {
+    margin-top: -38%;
   }
 }
 
@@ -1652,11 +1692,21 @@ textarea {
     max-width: 98%;
   }
   .section1-contents {
-    margin-top: -30%;
+    margin-top: -5%;
+  }
+  .contact-section {
+    margin-left: 26%;
   }
 }
 
 @media only screen and (max-width: 620px) {
+  .contact-header {
+    height: 35vh;
+  }
+  .header-contact-container h2 {
+    font-size: 3rem;
+    margin-top: 15%;
+  }
   .header-contents {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -1753,15 +1803,38 @@ textarea {
         -ms-flex-direction: column;
             flex-direction: column;
   }
+  .contact-form-container {
+    width: 72%;
+    margin: -12% 15%;
+    margin-bottom: 0;
+  }
+  .contact-social-info p {
+    font-size: 1rem;
+    line-height: 1.5rem;
+  }
 }
 
 @media only screen and (max-width: 500px) {
   .header-image img {
     margin-top: -15%;
   }
+  .contact-section {
+    margin-left: 28%;
+  }
+}
+
+@media only screen and (max-width: 492px) {
+  .contact-section {
+    margin-left: 21%;
+    margin-top: 37%;
+  }
 }
 
 @media only screen and (max-width: 478px) {
+  .nav-links {
+    text-align: center;
+    padding: 5%;
+  }
   .blog-contents-container h3 {
     padding-top: 7%;
   }
@@ -1778,11 +1851,23 @@ textarea {
     margin-top: -1%;
   }
   .section1-contents {
-    margin-top: 50%;
+    margin-top: 0%;
+  }
+  .header-contact-container h2 {
+    line-height: 1em;
+    text-align: center;
+  }
+  .blog-header-container {
+    margin-top: 9%;
   }
 }
 
 @media only screen and (max-width: 335px) {
+  .header-contact-container h2 {
+    font-size: 3rem;
+    text-align: center;
+    line-height: 2.5rem;
+  }
   .blog-header-container {
     padding-top: 20%;
   }
@@ -1811,6 +1896,10 @@ textarea {
   }
   .blog-section1 h3 {
     line-height: 2.2rem;
+  }
+  .contact-section {
+    margin-left: 5%;
+    margin-top: 37%;
   }
 }
 
@@ -1889,5 +1978,13 @@ textarea {
   .section5-image-container {
     margin: 0;
     width: 100%;
+  }
+  .contact-container {
+    margin-left: 5%;
+    margin-top: -37%;
+  }
+  .contact-section {
+    margin-left: 2%;
+    margin-top: 62%;
   }
 }
