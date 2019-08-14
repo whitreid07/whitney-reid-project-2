@@ -9,12 +9,14 @@
   /* GENERAL STYLING */
   html {
     font-size: 125%;
+    overflow-x: hidden;
   }
 
-body {
-  font-family: 'Lato', sans-serif;
-  line-height:32px;
-}
+  body {
+    font-family: 'Lato', sans-serif;
+    line-height:32px;
+    overflow-x: hidden;
+  }
 
 .wrapper1 {
   max-width: 1680px;
@@ -24,7 +26,7 @@ body {
 }
 
 .wrapper2 {
-  max-width: 1680px;
+  max-width: 1380px;
   margin: 0 auto;
   width: 85%;
   height: 100%;
@@ -123,4 +125,9 @@ textarea#contact-comment{
 #email:focus-within,
 #comment:focus-within {
   border: 2px solid #0f614e;
+}
+
+.form-contents input,
+  textarea {
+    color: #ffffff;
 }

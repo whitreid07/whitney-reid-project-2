@@ -98,7 +98,7 @@
   padding-top: 14%;
   padding-left: 7%;
   margin-left: -12.2%;
-  box-shadow: -19px 18px 0px -7px #86e0f9;
+  box-shadow: -11px 11px 0px -7px #86e0f9;
 }
 
 .blog-section {
@@ -131,7 +131,7 @@
 
 .blog-comment-container {
   display: flex;
-  margin: 7% 0;
+  margin: 14% 0;
 }
 
 .blog-comment-image1,
@@ -152,12 +152,14 @@
 .blog-comment-image-container2 {
   width: 100px;
   height: 100px;
-  // border: 2px solid green;
 }
 
 .blog-comment-paragraph1 {
   padding-right: 5%;
-  // border: 2px solid blue;
+}
+
+.blog-comment-paragraph1 p:first-child{
+  padding-bottom: 5%;
 }
 
 // form styles
@@ -200,4 +202,9 @@ textarea {
   border: 1px solid #86e0f9;
   background:#0c1423;
   width: 100%;
+}
+
+.blog-form input,
+textarea {
+    color: white;
 }

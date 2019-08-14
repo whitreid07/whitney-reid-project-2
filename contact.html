@@ -22,14 +22,18 @@
           <li><a href="contact.html">contact</a></li>
         </ul>
       </nav><!-- End of nav -->
+
       <div class="header-contact-container">
         <h2>get in touch </h2>
       </div>
     </header><!-- End of header -->
+
     <main>
-      <section class="contact-section">
-        <div class="contact-section1-container">
-          <div class="contact-info-section">
+
+      <!-- INFO SECTION ICONS -->
+      <div class="wrapper1">
+        <div class="contact-container">
+          <section class="contact-section">
             <div class="contact-social-container">
               <span><i class="fab fa-facebook-f" aria-hidden="true"></i></span>
               <span class="sr-only">Facebook Icon</span>
@@ -43,7 +47,7 @@
               <span><i class="fab fa-twitter" aria-hidden="true"></i></span>
               <span class="sr-only">Twitter Icon</span>
             </div>
-
+            <!-- INFO SECTION ADDRESS -->
             <div class="contact-social-info">
               <h4>info@email.com</h4>
               <p>123 - 456 - 7890</p>
@@ -51,32 +55,34 @@
               <p>Toronto, Ontario</p>
               <p>M2V2D5</p>
             </div>
-          </div>
-        </div>
-        <div class="form-container">
-          <form class="contact-form-container" action="">
-            <fieldset class="contact-fieldset">
-              <div class="form-input">
-                <label for="text" class="visuallyHidden">Type your name</label>
-                <input type="name" placeholder="Name" id="contact-name" name="name">
+          </section>
 
-                <label for="email" class="visuallyHidden">Type your email address</label>
-                <input type="name" placeholder="Email address" id="contact-email" name="email">
+          <!-- CONTACT FORM  -->
+          <div class="form-container">
+            <form class="contact-form-container" action="">
+              <div class="form-contents">
+                <fieldset class="contact-fieldset">
+                  <div class="form-input">
+                    <label for="text" class="visuallyHidden">Type your name</label>
+                    <input type="name" placeholder="Name" id="contact-name" name="name">
+                    <label for="email" class="visuallyHidden">Type your email address</label>
+                    <input type="name" placeholder="Email address" id="contact-email" name="email">
+                  </div>
+
+                  <div class="form-comment-button">
+                    <label for="text" class="visuallyHidden">Type your comments</label>
+                    <textarea rows="10" cols="50" id="contact-comment" placeholder="Comments"></textarea>
+                    <button class="contact-button">
+                      <p>submit</p>
+                    </button>
+                </fieldset>
               </div>
-
-              <div class="form-comment-button">
-                <label for="text" class="visuallyHidden">Type your comments</label>
-                <textarea rows="10" cols="50" id="contact-comment" placeholder="Comments"></textarea>
-
-                <button class="contact-button">
-                  <p>submit</p>
-                </button>
-            </fieldset>
-          </form>
+            </form>
+          </div>
         </div>
     </main>
   </div>
-
+  </div>
 
   <footer class="footer-section">
     <p>Copyright © 2018 HackerYou</p>
