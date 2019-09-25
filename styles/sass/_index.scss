@@ -17,6 +17,11 @@
   padding-top: 1%;
   padding-bottom: 7%;
   padding-right: 10%;
+
+  a {
+
+    color: white;
+  }
 }
 
 .header-contents {
@@ -231,7 +236,7 @@ blog-paragraph,
   height: 50px;
   background: #86e0f9;
   color: #0c1423;
-  font-size: 1.5rem;
+  // font-size: 1.5rem;
   text-align: center;
   border-radius: 50%;
 }
